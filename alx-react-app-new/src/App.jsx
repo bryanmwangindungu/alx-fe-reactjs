@@ -1,13 +1,11 @@
 import React from 'react';
-import UserProfile from './components/UserProfile';
 
-function App() {
+function Footer() {
   return (
-    <div>
-      <h1>User Info</h1>
-      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
-    </div>
+    <footer style={{ backgroundColor: '#222', color: '#ccc', textAlign: 'center', padding: '15px' }}>
+      <p>© 2023 City Lovers</p>
+    </footer>
   );
 }
 
-export default App;
+export default Footer;
